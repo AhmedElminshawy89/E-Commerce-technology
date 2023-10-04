@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/e-Commerce-technology/static/css/main.73e147fa.css",
+    "main.js": "/e-Commerce-technology/static/js/main.343b8f8f.js",
+    "static/media/tp1.jpg": "/e-Commerce-technology/static/media/tp1.1ff9c0e66dc2c6e42857.jpg",
+    "static/media/slider-img.png": "/e-Commerce-technology/static/media/slider-img.144c7c5cfdbecc4d8f75.png",
+    "static/media/Mobile Phone.png": "/e-Commerce-technology/static/media/Mobile Phone.06baad773fd6ffb3b237.png",
+    "static/media/smart watch.png": "/e-Commerce-technology/static/media/smart watch.951db009d44716894a22.png",
+    "static/media/headphone.png": "/e-Commerce-technology/static/media/headphone.e129263a7cf140e39549.png",
+    "static/media/logo.svg": "/e-Commerce-technology/static/media/logo.5f48cad7706d4c8d0c40694497cd4f14.svg",
+    "index.html": "/e-Commerce-technology/index.html",
+    "main.73e147fa.css.map": "/e-Commerce-technology/static/css/main.73e147fa.css.map",
+    "main.343b8f8f.js.map": "/e-Commerce-technology/static/js/main.343b8f8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73e147fa.css",
+    "static/js/main.343b8f8f.js"
+  ]
+}
