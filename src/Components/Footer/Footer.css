@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.footer{
+    padding: 20px 40px;
+    background-color: rgba(251,251,251);
+}
+.footer .container{
+    text-align: center;
+}
+.footer .container .f-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+@media (max-width:662px){
+    .footer .container .f-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .container .f-content .text p{
+    padding: 20px 0;
+        
+    }
+}
+.footer .container .f-content .text p{
+    font-size: 20px;
+    /* color: #332d2d; */
+    color: #4f4f4f;
+}
+.footer .container .f-content .social-media{
+    display: flex;
+}
+.footer .container .f-content .social-media ul{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.footer .container .f-content .social-media ul li a{
+    color: #4f4f4f;
+}
+.footer .container .sec-content{
+    padding: 20px 0px;
+}
+.footer .container .sec-content .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 20px;
+    text-align: center;
+}
+@media(max-width:360px){
+    .footer .container .sec-content .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+        gap: 20px;
+        text-align: center;
+    }
+}
+.footer .container .sec-content .box img{
+    padding-bottom: 15px;
+}
+.footer .container .sec-content .box .text p{
+    font-size: 19px;
+    line-height: 1.3;
+    color: #4f4f4f;
+}
+.footer .container .sec-content .box h3{
+    font-size: 20px;
+    padding-bottom: 15px;
+    color:#332d2d ;
+    text-transform: uppercase;
+}
+.footer .container .sec-content .box .list li{
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .container .sec-content .box .list li a{
+    font-size: 17px;
+    color: #4f4f4f;
+}
+.footer .container .sec-content .box .list li .icon{
+    padding-right: 10px;
+}
+.copy-right{
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 22px;
+}

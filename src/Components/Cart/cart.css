@@ -1,0 +1,118 @@
+.container-2{
+    padding: 20px 30px;
+    background-color: #e3edf6;
+}
+.container-2 .cart-empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-2 .cart-empty .empty{
+    margin: 20px 0px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.container-2 .cart-empty .link{
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: #010f1c;
+    color: #fff;
+    padding: 10px 40px;
+    transition: .5s;
+    border-radius: 8px;
+}
+.container-2 .cart-empty .link:hover{
+    background-color: #0989ff;
+}
+.container-2 .cart{
+    padding: 10px 20px;
+    display: flex;
+}
+.container-2 .cart .box{
+    background-color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap0;
+    width: 100%;
+    border-radius: 25px 0px 25px 25px;
+}
+.container-2 .cart .box .img-box img{
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 15px;
+}
+.container-2 .cart .box .details h4{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.container-2 .cart .box .details h3{
+    font-size: 22px;
+    color: #898989;
+    margin-bottom: 10px;
+}
+.container-2 .cart .box .details p{
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.container-2 .cart .box .btn,
+.total .btn{
+    border: none;
+    outline: none;
+    background-color: #010f1c;
+    color: #ffff;
+    padding: 10px 40px;
+    transition: .5s;
+    margin: auto;
+    display: block;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.container-2 .cart .box button:hover,
+.total .btn:hover{
+
+    background-color: #0989ff;
+}
+.qty {
+    display: flex;
+    margin-bottom: 20px;
+}
+.qty input{
+    width: 60px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    border: none;
+}
+.qty .inqty,
+.qty .deqty{
+    border: none;
+    outline: none;
+    background-color: #010f1c;
+    color: #ffff;
+    padding: 10px 20px;
+    transition: .5s;
+    margin: auto;
+    display: block;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.total{
+    background-color: #e3edf6;
+    padding: 20px 30px;
+    width: 100%;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 10px 0px;
+    position: relative;
+    top: -10px;
+}
+.total p{
+    font-weight: 600;
+    padding: 5px;
+}

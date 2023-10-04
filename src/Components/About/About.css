@@ -1,0 +1,22 @@
+
+.about .containerr{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+.about .containerr .info{
+    font-size: 22px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    max-width: 900px;
+    margin-left: 25px;
+}
+.about .containerr .images-box img{
+    width: 100%;
+    max-width: 350px;
+}

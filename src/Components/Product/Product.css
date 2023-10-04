@@ -1,0 +1,22 @@
+.category{
+    padding: 10px 40px;
+}
+
+.category .content .list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.category .content .list ul li{
+    padding: 10px 15px;
+    margin-left: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.active{
+    background-color: #0989ff;
+    color: #fff;
+}
